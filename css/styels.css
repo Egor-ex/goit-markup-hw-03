@@ -157,6 +157,7 @@
 /* Features, Work, Tem*/
 .features .list {
   display: flex;
+  margin-bottom: 94px;
 }
 .features .item:not(:last-child) {
   margin-right: 30px;
@@ -257,8 +258,9 @@
   line-height: 2;
   letter-spacing: 0.06em;
 
-  margin-top: 0;
+  margin-top: 20px;
   margin-bottom: 4px;
+  margin-left: 24px;
 }
 
 .card {
@@ -289,6 +291,8 @@ img {
 }
 .portfolio-text {
   margin: 0;
+  margin-left: 24px;
+  margin-bottom: 20px;
   color: var(--title-text-color);
 
   font-weight: 400;
