@@ -50,8 +50,10 @@
       <!-- Услуги -->
 
       <section class="services">
-        <h1 class="services-title">Эффективные решения <br />для вашего бизнеса</h1>
-        <button type="button" class="button primary">Заказать услугу</button>
+        <div class="container">
+          <h1 class="services-title services-bg">Эффективные решения <br />для вашего бизнеса</h1>
+          <button type="button" class="button primary">Заказать услугу</button>
+        </div>
       </section>
 
       <!-- Особенности -->
@@ -93,21 +95,23 @@
 
       <!-- Чем мы занимаемся -->
 
-      <section class="work container">
-        <h2 class="work-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li class="item">
-            <img src="./images/a/imga1.jpg" width="370" alt="Создаем разметку" />
-          </li>
+      <section class="work">
+        <div class="container">
+          <h2 class="work-title">Чем мы занимаемся</h2>
+          <ul class="list">
+            <li class="item">
+              <img src="./images/a/imga1.jpg" width="370" alt="Создаем разметку" />
+            </li>
 
-          <li class="item">
-            <img src="./images/a/imga2.jpg" width="370" alt="Веб дизайн" />
-          </li>
+            <li class="item">
+              <img src="./images/a/imga2.jpg" width="370" alt="Веб дизайн" />
+            </li>
 
-          <li class="item">
-            <img src="./images/a/imga3.jpg" width="370" alt="Стили" />
-          </li>
-        </ul>
+            <li class="item">
+              <img src="./images/a/imga3.jpg" width="370" alt="Стили" />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- Наша команда -->
@@ -123,8 +127,10 @@
                 width="270"
                 alt="Сотрудник компании"
               />
-              <h3 class="team-subtitle">Игорь Демьяненко</h3>
-              <p lang="en" class="team-text">Product Designer</p>
+              <div class="team-card">
+                <h3 class="team-subtitle">Игорь Демьяненко</h3>
+                <p lang="en" class="team-text">Product Designer</p>
+              </div>
             </li>
 
             <li class="item">
@@ -134,8 +140,10 @@
                 width="270"
                 alt="Сотрудник компании"
               />
-              <h3 class="team-subtitle">Ольга Репина</h3>
-              <p lang="en" class="team-text">Frontend Developer</p>
+              <div class="team-card">
+                <h3 class="team-subtitle">Ольга Репина</h3>
+                <p lang="en" class="team-text">Frontend Developer</p>
+              </div>
             </li>
 
             <li class="item">
@@ -145,8 +153,10 @@
                 width="270"
                 alt="Сотрудник компании"
               />
-              <h3 class="team-subtitle">Николай Тарасов</h3>
-              <p lang="en" class="team-text">Marketing</p>
+              <div class="team-card">
+                <h3 class="team-subtitle">Николай Тарасов</h3>
+                <p lang="en" class="team-text">Marketing</p>
+              </div>
             </li>
 
             <li class="item">
@@ -156,8 +166,10 @@
                 width="270"
                 alt="Сотрудник компании"
               />
-              <h3 class="team-subtitle">Михаил Ермаков</h3>
-              <p lang="en" class="team-text">UI Designer</p>
+              <div class="team-card">
+                <h3 class="team-subtitle">Михаил Ермаков</h3>
+                <p lang="en" class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -174,7 +186,7 @@
         <address class="address">
           <p class="footer-text">г. Киев, пр-т Леси Украинки, 26</p>
 
-          <ul class="footer-nav list">
+          <ul class="list footer-nav">
             <li class="item">
               <a href="mailto:info@devstudio.com" lang="en" class="footer-link"
                 >info@devstudio.com</a
