@@ -43,12 +43,11 @@ h3 {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-.page-header.border {
-  padding-bottom: 94px;
-}
+
+/* Section */
 
 /* Main nav */
-.main-nav {
+.border {
   border-bottom: 1px solid var(--border-header-color);
 }
 .main-nav,
@@ -81,7 +80,6 @@ h3 {
 
 .address {
   font-style: inherit;
-  padding-bottom: 60px;
 }
 
 /* Site nav */
@@ -144,7 +142,9 @@ h3 {
 
 /* Services */
 
-.services {
+.section.services {
+  padding-bottom: 200px;
+  padding-top: 200px;
   margin-left: auto;
   margin-right: auto;
 
@@ -157,7 +157,6 @@ h3 {
 .services-title {
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 200px;
 
   color: var(--title-list-color);
 
@@ -170,9 +169,11 @@ h3 {
 }
 
 /* Features, Work, Tem*/
+.section.features {
+  margin-bottom: 94px;
+}
 .features .list {
   display: flex;
-  margin-bottom: 94px;
 }
 .features .item:not(:last-child) {
   margin-right: 30px;
@@ -189,7 +190,7 @@ h3 {
   text-transform: uppercase;
 }
 .features-text {
-  margin-top: 0;
+  margin: 0;
 
   color: var(--title-text-color);
 
@@ -215,11 +216,24 @@ h3 {
   box-shadow: var(--team-shadow-color);
   text-align: center;
 }
-.work-title,
-.team-title {
+.srction.team-title {
+  padding-top: 94px;
+}
+.work-title {
   margin-top: 0;
   margin-bottom: 50px;
 
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.team-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 94px;
   color: var(--primary-text-color);
 
   font-weight: 700;
@@ -266,18 +280,17 @@ h3 {
 }
 
 /* Portfolio */
+
 .portfolio {
-  margin-top: 0;
-  margin-bottom: 0;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.03em;
-
   margin-bottom: 4px;
+  letter-spacing: 0.04em;
 }
 
 .card {
@@ -321,18 +334,24 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
 }
 
 .portfolio .list {
   display: flex;
-  margin-bottom: 50px;
+
+  margin-bottom: 34px;
   justify-content: center;
   align-items: center;
 }
+/* .section .button {
+  margin-bottom: 34px;
+} */
 
 /* Подвал */
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--secondary-bg-color);
 }
 .footer-text {
@@ -345,7 +364,6 @@ img {
   line-height: 1.71;
 }
 .footer-logo {
-  padding-top: 60px;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -397,7 +415,7 @@ img {
 }
 .button.primary {
   margin-top: 0px;
-  margin-bottom: 200px;
+
   padding: 10px 32px;
   color: var(--title-list-color);
   background-color: var(--acent-color);
